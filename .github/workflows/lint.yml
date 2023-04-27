@@ -13,3 +13,6 @@ jobs:
       - name: Run tests
         run: |
           echo "Running tests..."
+          
+      - name: Lint code with SwiftLint
+        uses: norio-nomura/action-swiftlint@3.2.1
